@@ -1,5 +1,5 @@
 <?php
-$car = new Car();
+$car = new Toyota();
 
 $driver = new Driver($car);
 $driver->go();
