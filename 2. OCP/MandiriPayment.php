@@ -1,5 +1,5 @@
 <?php
-class BcaPayment implements PaymentMethodInterface
+class MandiriPayment implements PaymentMethodInterface
 {
 	public function processPayment()
 	{

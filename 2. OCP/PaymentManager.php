@@ -1,16 +1,16 @@
 <?php
 class PaymentManager
 {
-	protected $bcaPayment;
+	protected $paymentMethod;
 
-	public function __construct(BcaPayment $bcaPayment)
+	public function __construct(PaymentMethodInterface $paymentMethod)
 	{
-		$this->bcaPayment = $bcaPayment;
+		$this->paymentMethod = $paymentMethod;
 	}
 
 	public function process()
 	{
-		$this->bcaPayment->processPayment();
+		$this->paymentMethod->processPayment();
 		// and other payment
 	}
 }
