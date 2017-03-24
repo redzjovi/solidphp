@@ -1,4 +1,5 @@
 <?php
-$user = new User();
+$logger = new Logger();
+$user = new User($logger);
 
 $user->create(array());
