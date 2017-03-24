@@ -1,5 +1,5 @@
 <?php
-class Chicken implements BirdInterface
+class Chicken
 {
 	
 }
