@@ -1,5 +1,5 @@
 <?php
-class MySQLConnection
+class MySQLConnection implements DBConnectionInterface
 {
 	public function connect()
 	{
