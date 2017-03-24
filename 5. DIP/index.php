@@ -1,0 +1,2 @@
+<?php
+$passwordReminder = new PasswordReminder();
